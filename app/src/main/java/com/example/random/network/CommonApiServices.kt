@@ -1,4 +1,13 @@
 package com.example.random.network
 
-class CommonApiServices {
+import com.example.random.network.data.PokemonResponse
+import com.example.random.network.data.PokemonResult
+import retrofit2.Response
+import retrofit2.http.GET
+
+interface CommonApiServices {
+
+    @GET("/v2/pokemon")
+    suspend fun getPokemonList(): Response<List<PokemonResult>>
+
 }

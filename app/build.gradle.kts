@@ -68,4 +68,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     //navigation
     implementation (libs.androidx.navigation.compose)
+    //gson
+    implementation(libs.gson)
+    //retrofit
+    implementation(libs.retrofit)
+    //livedata
+    implementation( libs.androidx.runtime.livedata)
 }
