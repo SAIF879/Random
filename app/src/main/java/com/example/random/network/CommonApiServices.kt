@@ -7,7 +7,7 @@ import retrofit2.http.GET
 
 interface CommonApiServices {
 
-    @GET("/v2/pokemon")
+    @GET("/pokemon")
     suspend fun getPokemonList(): Response<List<PokemonResult>>
 
 }

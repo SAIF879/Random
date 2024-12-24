@@ -74,4 +74,9 @@ dependencies {
     implementation(libs.retrofit)
     //livedata
     implementation( libs.androidx.runtime.livedata)
+    //gson convertor
+    implementation (libs.converter.gson)
+
+    implementation ("com.github.chuckerteam.chucker:library:4.0.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
 }
